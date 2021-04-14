@@ -10,6 +10,7 @@ $config = array(
     "private_key_type" => OPENSSL_KEYTYPE_RSA,
 );
 
+
 //Генерация связки ключей
 $res = openssl_pkey_new($config);
 
